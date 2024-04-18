@@ -3,9 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-do List App</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="bg-gradient-to-r from-cyan-500 via-blue-700 to-purple-800" >
+
+    <main class="bg-gradient-to-r from-cyan-500 via-blue-700 to-purple-800">
+
+        
+
+            <header id="title" class="text-center p-4">
+                
+                <h1 class="app-name text-blue-100 font-medium text-4xl p-2" >List-IT</h1> 
+
+                <p class="caption text-blue-100 text-xl" >Let's get you organized...</p>
+    
+
+            </header>
+    
+        
+            <section class="input-task text-center gap-2 m-6">
+            
+                    <form action="">
+                        <input type="text" name="task" placeholder="  I need to..." class= " mx-5 border-2 rounded-md w-1/3" > 
+                <button type="submit" class="bg-white/30 p-[6px] text-white hover:text-purple-800 font-semibold text-xs rounded-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-50 duration-300">Add Task</button>
+                
+                    </form>
+                <!--hover:bg-cyan-50 -->
+            </section>
+
+            <section  class=" task-list text-xs md:text-xl  border-solid bg-white/30 border-2 rounded-md border-cyan-100 p-6 w-[80%] text-center m-auto flex flex-col md:flex-row flex-wrap">
+
+                    
+            
+                <div class=" task-container border-solid border-2 rounded-md border-cyan-100 py-3 w-[90%] md:w-[46%] md:relative md:h-[50px] h[70px] mx-auto my-[10px] ">
+                    <p class="md:inline block ml-0 md:absolute left-2 top-[8px] line-through p-2 mb-2 md:p-0 ">Samplehhdhdhhdhhdhdhdh</p>
+
+                
+                    
+                
+                        <a href="" class="btn undo-btn bg-orange-500/80 p-1  text-white hover:text-purple-800 font-semibold text-xs  w-[43px] h-[24]
+                          rounded-md md:absolute right-[100px] top-[10px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-50 duration-300 ">Undo</a>
+
+                        <a href="" class="btn done-btn bg-green-800/80 p-1  text-white hover:text-purple-800 font-semibold text-xs  w-[43px] h-[24]
+                          rounded-md md:absolute right-[100px] top-[10px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-50 duration-300">Done</a>
+
+                        <a href="" class="btn edit-btn bg-yellow-500/80 p-1  text-white hover:text-purple-800 font-semibold text-xs  w-[43px] h-[24] 
+                         rounded-md md:absolute right-[52px] top-[10px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-50 duration-300 ">Edit</a>
+
+                        <a href="" class="btn delete-btn bg-red-500/80 p-1 text-white hover:text-purple-800 font-semibold text-xs w-[43px] h-[24]
+                          rounded-md md:absolute right-1 top-[10px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-50 duration-300">Delete</a>
+                        
+                        
+                    
+                </div>
+
+                <div class=" task-container border-solid border-2 rounded-md border-cyan-100 py-3 w-[90%] md:w-[46%] md:relative md:h-[40px] h[70px] mx-auto my-[10px] ">
+                    <p class="md:inline block ml-0 md:absolute left-2 top-1 line-through p-2 mb-2 md:p-0 ">Samplehhdhdhhdhhdhdhdh</p>
+
+                    
+                
+                        <a href="" class="btn undo-btn bg-orange-500/80 p-1  text-white hover:text-purple-800 font-semibold text-xs  w-[43px] h-[24] hover:bg-cyan-50 rounded-md md:absolute right-[95px] top-1 ">Undo</a>
+                        <a href="" class="btn done-btn bg-green-800/80 p-1  text-white hover:text-purple-800 font-semibold text-xs  w-[43px] h-[24] hover:bg-cyan-50 rounded-md md:absolute right-[95px] top-1  ">Done</a>
+                        <a href="" class="btn edit-btn bg-yellow-500/80 p-1  text-white hover:text-purple-800 font-semibold text-xs  w-[43px] h-[24] hover:bg-cyan-50 rounded-md md:absolute right-[49px] top-1 ">Edit</a>
+                        <a href="" class="btn delete-btn bg-red-500/80 p-1 text-white hover:text-purple-800 font-semibold text-xs w-[43px] h-[24] hover:bg-cyan-50 rounded-md md:absolute right-1 top-1 ">Delete</a>
+                        
+                    
+                </div>
+
+                <div class=" task-container border-solid border-2 rounded-md border-cyan-100 py-3 w-[90%] md:w-[46%] md:relative md:h-[40px] h[70px] mx-auto my-[10px] ">
+                    <p class="md:inline block ml-0 md:absolute left-2 top-1 line-through p-2 mb-2 md:p-0 ">Samplehhdhdhhdhhdhdhdh</p>
+
+                    
+                
+                        <a href="" class="btn undo-btn bg-orange-500/80 p-1  text-white hover:text-purple-800 font-semibold text-xs  w-[43px] h-[24] hover:bg-cyan-50 rounded-md md:absolute right-[95px] top-1 ">Undo</a>
+                        <a href="" class="btn done-btn bg-green-800/80 p-1  text-white hover:text-purple-800 font-semibold text-xs  w-[43px] h-[24] hover:bg-cyan-50 rounded-md md:absolute right-[95px] top-1  ">Done</a>
+                        <a href="" class="btn edit-btn bg-yellow-500/80 p-1  text-white hover:text-purple-800 font-semibold text-xs  w-[43px] h-[24] hover:bg-cyan-50 rounded-md md:absolute right-[49px] top-1 ">Edit</a>
+                        <a href="" class="btn delete-btn bg-red-500/80 p-1 text-white hover:text-purple-800 font-semibold text-xs w-[43px] h-[24] hover:bg-cyan-50 rounded-md md:absolute right-1 top-1 ">Delete</a>
+                        
+                    
+                </div>
+
+             
+
+               
+
+
+                
+
+              
+
+
+
+               
+                
+                
+                
+
+
+
+           
+
+            </section>
+
+
+
+        
+
+    </main>
+
     
 </body>
 </html>
