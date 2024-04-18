@@ -426,7 +426,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
+  /* vertical-align: middle; */
   /* 2 */
 }
 
@@ -674,9 +674,7 @@ video {
   right: 52px;
 }
 
-.top-\[\] {
-  top: ;
-}
+
 
 .top-\[6px\] {
   top: 6px;
@@ -761,10 +759,7 @@ video {
   margin-right: 1.75rem;
 }
 
-.mx-\[\] {
-  margin-left: ;
-  margin-right: ;
-}
+
 
 .mx-\[80px\] {
   margin-left: 80px;
@@ -853,9 +848,7 @@ video {
   height: 80%;
 }
 
-.h-\[\] {
-  height: ;
-}
+
 
 .h-\[100px\] {
   height: 100px;
@@ -913,9 +906,6 @@ video {
   width: 2.25rem;
 }
 
-.w-\[\] {
-  width: ;
-}
 
 .w-\[80\] {
   width: 80;
@@ -1487,9 +1477,7 @@ video {
     height: 50px;
   }
 
-  .md\:w-\[\] {
-    width: ;
-  }
+  
 
   .md\:w-\[46\%\] {
     width: 46%;
